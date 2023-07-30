@@ -1,0 +1,12 @@
+Este trabajo es una Web de un emprendimiento de servicios de data.
+
+Los models de las bases de datos son 3: Clientes, Servicios y suscripciones.
+
+Las 3 consisten con forms para poder ingresar mas en la web (ingresar cliente, ingresar servicio, y suscribirse).
+
+Tambien tiene el form para buscar, lo que hice fue que si no esta en la lista de servicios diga que no existe, y si es vacio que no se ingreso.
+
+Ademas en los botones de inicio tenemos el de admin que funciona para agregar usuarios etc(usuario: admin y contraseña: admin1234). Funciona y se puede agregar mas de todo y modifica la base correctamente. 
+
+Los otros botones son inicio y nosotros que muestra los que forman parte de la misma. 
+

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscribite acá</title>
+</head>
+<body>
+    <form action="" method="post">
+    {% csrf_token %}
+    <p>Nombre: <input type="text" name="nombre" id="nombre"></p>
+    <p>Apellido: <input type="text" name="apellido" id="apellido"></p>
+    <p>email: <input type="text" name="email" id="email"></p>
+    <input type="submit" value="Enviar">    
+    </form>
+</body>
+</html>

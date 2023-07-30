@@ -1,0 +1,36 @@
+{% extends 'aplicacion/base.html' %}
+{% load static %}
+
+{% block title %}
+Servicios
+{% endblock title %}
+
+{% block pantalla %}
+    Servicios
+{% endblock pantalla %}
+
+{% block contenido %}
+
+{% endblock contenido %}
+
+{% block nosotros %}
+
+{% endblock nosotros %}
+
+{% block clientes %}
+
+    {% for servicio in servicios %}
+    <ul>
+        <li>
+            {{Servicios.nombre}} {{Servicios.encargado}} 
+        </li>
+    </ul>
+    {% endfor %}
+
+
+{% endblock clientes %}
+
+
+ 
+
+
